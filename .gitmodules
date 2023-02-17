@@ -1,0 +1,24 @@
+[submodule "svox"]
+	path = svox
+	url = https://android.googlesource.com/platform/external/svox
+	branch = master
+[submodule "base"]
+	path = base
+	url = https://android.googlesource.com/platform/frameworks/base
+	branch = master
+[submodule "libnativehelper"]
+	path = libnativehelper
+	url = https://android.googlesource.com/platform/libnativehelper
+	branch = master
+[submodule "core"]
+	path = core
+	url = https://android.googlesource.com/platform/system/core
+	branch = master
+[submodule "logging"]
+	path = logging
+	url = https://android.googlesource.com/platform/system/logging
+	branch = master
+[submodule "expat"]
+	path = expat
+	url = https://android.googlesource.com/platform/external/expat
+	branch = master
