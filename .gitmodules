@@ -22,3 +22,7 @@
 	path = expat
 	url = https://android.googlesource.com/platform/external/expat
 	branch = master
+[submodule "android_hardware_lineage_compat"]
+	path = android_hardware_lineage_compat
+	url = https://github.com/LineageOS/android_hardware_lineage_compat.git
+	branch = lineage-20.0
