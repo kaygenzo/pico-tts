@@ -22,6 +22,10 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
+      - run:
+          name: Get external module dependencies
+          command: |
+            ./scripts/install_modules.sh
 
       # And finally run the release build
       - run:
