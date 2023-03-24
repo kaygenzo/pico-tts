@@ -32,7 +32,7 @@ jobs:
           name: Assemble release build
           command: |
             ./gradlew assembleFullRelease
-            apksigner sign --key platform_build/target/product/security/platform.pk8 \
+            $ANDROID_SDK_ROOT/build-tools/33.0.1/apksigner sign --key platform_build/target/product/security/platform.pk8 \
                 --cert platform_build/target/product/security/platform.x509.pem \
                 --in app/build/outputs/apk/full/release/app-full-release-unsigned.apk \
                 --out app/build/outputs/apk/full/release/pico-tts-release.apk
