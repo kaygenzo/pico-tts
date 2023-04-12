@@ -26,3 +26,7 @@
 	path = android_hardware_lineage_compat
 	url = https://github.com/LineageOS/android_hardware_lineage_compat.git
 	branch = lineage-20.0
+[submodule "platform_build"]
+	path = platform_build
+	url = https://android.googlesource.com/platform/build
+	branch = master
